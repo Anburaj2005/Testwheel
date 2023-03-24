@@ -1,0 +1,138 @@
+@charset "utf-8";
+*{
+    margin:0
+}
+
+.sidebar {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    position: fixed;
+    height: 100%;
+    margin-top: 100px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+a {
+    text-decoration: none;
+}
+.content {
+    height: auto;
+}
+
+.body-content {
+    padding-top: 5% !important;
+    margin-left: 170px;
+    height: 100%;
+}
+
+.fixed-header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 1px #00000029;
+    background: #fff;
+}
+
+.fixed-header img {
+    width: 156px
+}
+
+.body-content {
+    opacity: 1;
+}
+
+.fa-color {
+    color:#CB6F30
+}
+
+.document-icon {
+    height: 50vh;
+    overflow-y: scroll;
+    width: 120px;
+}
+
+.document-icon::-webkit-scrollbar {
+    display: none;
+}
+
+.footer-icon {
+    position: fixed;
+    height: 50vh;
+}
+
+.icon-text {
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
+}
+
+.logout-text{
+    font: normal normal bold 16px/27px Open Sans,sans-serif;
+    color:#141414
+}
+
+.help-icon .dropdown-toggle::after {
+    display:none;
+    
+}
+.help-icon .dropdown-menu{
+    left:150%;
+    top:1%;
+    background-color: none;
+    border:none
+}
+
+.help-icon .dropdown-menu .dropdown-item:hover{
+background :none!important;
+}
+
+
+.help-icon .nav-link:hover{
+    display: block;
+}
+
+/* responsive */
+
+
+@media(max-width:600px){
+    .icon-text{
+        display: none;
+    }
+    .fixed-header {
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        box-shadow: 0px 0px 1px #00000029;
+        background: #fff;
+    }
+    
+        .sidebar {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            position: fixed;
+            height: 100%;
+            margin-top: 100px;
+            }
+        .document-icon i{
+            padding-top:20px;
+        }
+        .document-icon {
+            height: 60vh;
+            overflow-y: scroll;
+            width: 25px
+        }
+        .body-content {
+            padding-top: 15% !important;
+            margin-left:85px;
+            height: 100%;
+        }
+        .help-image{
+            margin-left:-15px!important
+        }
+
+    }
+
+
+  
